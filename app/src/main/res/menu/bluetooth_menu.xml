@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_reconnect"
+        android:orderInCategory="100"
+        android:title="Reconnect"
+        android:visible="false"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_clear"
+        android:orderInCategory="100"
+        android:title="Clear"
+        android:visible="true"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/checkable_auto_scroll"
+        android:checkable="true"
+        android:checked="true"
+        android:title="Auto scroll"/>
+
+    <item
+        android:id="@+id/checkable_show_messages"
+        android:checkable="true"
+        android:checked="true"
+        android:title="Show messages"/>
+
+    <item
+        android:id="@+id/checkable_show_time"
+        android:checkable="true"
+        android:checked="true"
+        android:title="Show time"/>
+
+</menu>

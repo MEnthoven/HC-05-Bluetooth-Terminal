@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:divider">@color/dividerColor</item>
+
+    </style>
+
+    <style name="CustomToolbarColor" parent="@style/ThemeOverlay.AppCompat.Dark" >
+        <item name="android:textColorSecondary"> @color/colorTextSecondary </item>
+    </style>
+
+
+</resources>
